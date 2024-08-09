@@ -1,5 +1,6 @@
 .parent {
-  
+  margin: 20px 0px;
+  text-align: center;
 }
 
 .redBox, .yellowBox, .greenBox {
@@ -8,12 +9,16 @@
 
 .redBox {
   background-color: red;
+  padding: 20px;
 }
 
 .yellowBox {
   background-color: yellow;
+  padding: 10px 30px;
+  border: 1px solid black;
 }
 
 .greenBox {
   background-color: green;
+  padding: 20px 10px 5px 20px;
 }
