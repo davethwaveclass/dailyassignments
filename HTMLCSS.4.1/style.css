@@ -52,6 +52,14 @@ a, h1, h2, h3, div, body, html {
   
 }
 
+.image2 {
+  background-color: rgb(46, 94, 142);
+  float: left;
+  padding: 21px;
+  margin: 0 10px;
+  
+}
+
 
 /**************************/
 /******** Example3 ********/
@@ -74,5 +82,25 @@ a, h1, h2, h3, div, body, html {
 #textContainer h1 {
   margin: 0;
   font-size: 50px;
+  
+}
+
+#example3 {
+  clear: both;
+}
+
+#mainBackgrounds {
+  background-color: rgb(54, 83, 108);
+}
+
+#textContainers {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#textContainers h1 {
+  margin: 0;
+  font-size: 20px;
   
 }
