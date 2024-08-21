@@ -15,7 +15,8 @@ function problem1(color) {
   
   
 }
-
+problem1("green");
+console.log(favGreenOrYellow)
 //-----------------
 // Problem 2
 //-----------------

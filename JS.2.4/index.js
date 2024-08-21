@@ -15,6 +15,9 @@ function adding(myNum) {
   addTo = myNum;
   
   //write for loop here
-  
-  
+    for(addTo = 1; addTo <= 9; addTo++) {
+      console.log(addTo);
+    }
 }
+
+adding();

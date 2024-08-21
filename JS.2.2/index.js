@@ -42,15 +42,20 @@ example("yellow");
 // If any other color is entered have the variable 'redIsFavorite' be false.
 
 
+
 let redIsFavorite = false;
 function problem1(color) {
   //write code here
-  
+  if(color === "red") {
+    redIsFavorite = true;
+  } else {
+    redIsFavorite = false;
+  }
   
   
   console.log(`Red is favorite: ${redIsFavorite}`);
 }
-
+problem1("red");
 
 
 //--------------------
@@ -66,12 +71,17 @@ function problem1(color) {
 let typeNumber = false;
 function problem2(someNumber) {
   //write code here
-
+  if(typeNumber < 0) {
+    typeNumber = "positive";
+  } else if( typeNumber > 0){
+    typeNumber = "negative";
+  }
+  else typeNumber = "zero";
   
   
   console.log(`bigNumber: ${typeNumber}`);
 }
-
+problem2(1);
 
 //--------------------
 // Problem 3
@@ -86,7 +96,17 @@ function problem2(someNumber) {
 let percentGrade;
 function problem3(grade) {
   //write code here
-  
-  
-  
+  if (grade == 'a') {
+    percentGrade = '100%';
+  } else if (grade == 'b') {
+    percentGrade = '80%';
+  } else if (grade == 'c') {
+    percentGrade = '70%';
+  } else if (grade == 'd') {
+      percentGrade = '60%';
+  } else if (grade == 'f') {
+    percentGrade = '0%';
+  } 
 }
+console.log(percentGrade);
+problem3('a');

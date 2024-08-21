@@ -8,10 +8,12 @@ let addTo;
 function adding(num) {
   addTo = num;
   //Code here
-  
+  for(addTo = 1; addTo <= 19; addTo++) {
+    console.log(addTo);
+  }
   
 }
-
+adding();
 
 //Create a for loop that iterates through 20 to 29.
 //Add the iterator to the anotherAdd variable each loop.
@@ -20,10 +22,12 @@ let anotherAdd;
 function adding1(num) {
   anotherAdd = num;
   //Code here
-  
+  for(anotherAdd = 20; anotherAdd <= 29; anotherAdd++) {
+    console.log(anotherAdd);
+  }
   
 }
-
+adding1();
 
 // Now we want a loop that adds to our variable moreAdding.
 // This time we want it to add every 5th number starting at 0
@@ -42,6 +46,9 @@ let moreAdding;
 function adding2(num) {
   moreAdding = num;
   //write code here
-  
+  for(moreAdding = 0; moreAdding <= 100; moreAdding += 5) {
+    console.log(moreAdding);
+  }
   
 }
+adding2();
