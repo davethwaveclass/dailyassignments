@@ -22,10 +22,10 @@ console.log(addTwoNumbers(1,1))
 // Perimeter is width + width + height + height
 
 function perimeter(width, height) {
-  let answer;
+  let answer = (width * 2) + (height * 2);
   return answer;
 }
-
+console.log(perimeter(4,6))
 
 
 // Problem 3
@@ -35,10 +35,10 @@ function perimeter(width, height) {
 // Area is width * height
 
 function area(width, height) {
-  let answer;
+  let answer = width * height;
   return answer;
 }
-
+console.log(area(2,7))
 
 // Problem 4
 // The function name will be helloMessage.
@@ -46,9 +46,10 @@ function area(width, height) {
 // Have it output "Hello (persons name)"
 
 function helloMessage(name) {
-  return;
+  message = "Hello " + name;
+  return message;
 }
-
+console.log(helloMessage("Dave"))
 // Problem 5
 // The function name will be favColor.
 // It will take one parameter which will be a color.
@@ -57,5 +58,15 @@ function helloMessage(name) {
 // If it is any other color return "Great choice!".
 
 function favColor(color) {
-  
+  if (color = "blue" ) {
+    color = "That is a great color!"
+  } else if (color = "red") {
+    color = "That is a great color!"
+  } else if (color = "green") {
+    color = "That is a great color!"
+  } else if (color = "yellow") {
+    color = "Just like the sun!"
+  } else {color = "Great Choice!"}
+  return color;
 }
+console.log(favColor("areg"))

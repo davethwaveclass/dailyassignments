@@ -7,5 +7,8 @@
 // only loop once.
 
 let i = 5;
-
+do {
+ i++;
+} while(i < 3)
+    console.log(i);
 //write loop here.

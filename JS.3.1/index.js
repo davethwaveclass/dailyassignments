@@ -11,7 +11,9 @@
 let i = 0;
 
 //write loop here
-
+while (i < 5) {
+  i++;
+}
 
 
 // Problem 2
@@ -28,11 +30,13 @@ let lessThan5 = true;
 let j = 0;
 
 while(lessThan5) {
-  
+  while(j < 5){
   lessThan5 = false;
+  ++j;
+  }
   
 }
-
+console.log(j);
 
 
 // Example of what the number game would look like:
@@ -60,10 +64,14 @@ function guessNumberGame(guess) {
 // For example if num is 3 then your while loop should loop 3 times
 // If num is 20 then the loop should loop 20 times.
 // Increment k every loop.
-
-let k = 0;
+let k = 0
 function keepLooping(num) {
+  while (k < num) {
+    k++;
+  }
   
   
 }
 
+keepLooping(5);
+console.log(k);
