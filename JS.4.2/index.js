@@ -6,10 +6,11 @@
 let currency = {
   usd: '$',
   euro: '€',
-  yen: '¥'
+  yen: '¥',
 };
 
-let myCurrency;
+let myCurrency = `I have ${currency.euro}200 which is ${currency.yen}23,718.09 and ${currency.usd}218.84`;
+console.log(myCurrency);
 
 
 // Problem 2
@@ -28,7 +29,11 @@ let companyIncome = {
   totalIncome: 4357346
 };
 
-let total;
+let total = companyIncome.january + companyIncome.february + companyIncome.march;
+
+companyIncome.totalIncome = total;
+
+console.log(total);
 
 
 // Problem 3
@@ -50,7 +55,9 @@ let college = {
   graduationRatePercent: 70 
 };
 
-let students;
+let students = college.classOf21.students + college.classOf22.students;
+
+console.log(students);
 
 
 // Problem 4
@@ -70,9 +77,10 @@ let mathEquations = {
   }
 };
 
-let first;
-let second;
-
+let first = mathEquations.pow4(7);
+let second = mathEquations.addThree(3213,3543,12365);
+console.log(first);
+console.log(second);
 
 // Problem 5
 // Use our positiveExponent function and assign the value to the answer variable
@@ -92,4 +100,5 @@ let mathInfo = {
   }
 };
 
-let answer;
+let answer = mathInfo.equation.positiveExponent(5,3);
+console.log(answer);

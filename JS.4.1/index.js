@@ -4,7 +4,11 @@
 // Give this person an age of 23
 // Give this person a height of '5 feet 11 inches'
 
-let person = {};
+let person = {
+    name: "John",
+    age: 23,
+    height: "5 feet 11 inches"
+};
 
 
 
@@ -15,7 +19,12 @@ let person = {};
 // 3 shows
 // 40 churroStands
 
-let themePark = {};
+let themePark = {
+    rollerCoasters: 8,
+    kidFriendlyRides: 11,
+    shows: 3,
+    churroStands: 40
+};
 
 
 // Problem 3
@@ -26,8 +35,12 @@ let themePark = {};
 // iceCreamMachineBroken is true
 // We just ran out of orangeSoda so make it false.
 
-let fastFood = {};
-
+let fastFood = {
+    burgurs: true,
+    fries: true,
+    iceCreamMachineBroken: true,
+    orangeSoda: false
+};
 
 
 // Problem 4
@@ -44,4 +57,26 @@ let fastFood = {};
 // Don't know the equation to find the distance? Go to the link
 // under problem 4 help.
 
-let mathHelp = {};
+let mathHelp = {
+    squared: function(square){
+        squares = (square * square)
+        return squares;
+    },
+    toCelcsius: function(fahrenheit){
+        answer = (((fahrenheit - 32) * 5) / 9)
+        return answer;
+    },
+    distanceBetweenTwoPoints: function(x1,y1,x2,y2){
+        a = x1 - x2;
+        b = y1 - y2;
+        distance = Math.sqrt((a * a) + (b * b))
+        return distance;
+    }
+
+};
+mathHelp.squared(3);
+console.log(squares);
+mathHelp.toCelcsius(90);
+console.log(answer);
+mathHelp.distanceBetweenTwoPoints(1,2,3,4);
+console.log(distance);
