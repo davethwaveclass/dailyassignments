@@ -29,6 +29,7 @@ let shoppingCart = [
       price: 5.99,
     }
   ];
+let results = myArray.filter(filterMyArray);
 
 function totalPrice() {
   //write code here

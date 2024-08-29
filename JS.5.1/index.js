@@ -14,19 +14,19 @@ let addUp = myFirstArray[0] + myFirstArray[1];
 // Now push the value in addUp to the end of myFirstArray array.
 // (it will be at the 2nd index)
 
-
+myFirstArray.push(addUp);
 
 // Problem 3
 // We no longer want what is in the 0 index of the array.
 // Use the built in array function to take out the value in the 0th index.
 
-
+myFirstArray.shift();
 
 // Problem 4
 // Add the two items in the array together into the addAgain variable
 
-let addAgain;
-
+let addAgain = [1, 2];
+let adding = addAgain[0] + addAgain[1];
 
 // Problem 5
 // Create a new array with 10 different items in it.
@@ -34,7 +34,8 @@ let addAgain;
 // you can type the array variable name with .length at the end.
 // myArray.length will return 2.
 // Put the length of the array in the arrLength variable.
+let newArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let newArray;
+let arrLength = newArray.length;
 
-let arrLength;
+console.log(arrLength);

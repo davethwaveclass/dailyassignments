@@ -4,8 +4,10 @@
 // Assign the result array to myArray
 
 let myArray = [1, 11, 7, 3, 8, 2, 3, 2, 10, 3, 6, 2, 5];
-function filterMyArray() {
+let results = myArray.filter(filterMyArray);
+function filterMyArray(myArray) {
   //write code here
+  return myArray > 5 && myArray < 11;
 }
 
 // Problem 2
@@ -13,7 +15,8 @@ function filterMyArray() {
 // We want to take each item in the array and multiply it by 5;
 
 let multiplyArray = [1, 11, 7, 3, 8, 2, 3, 2, 10, 3, 6, 2, 5];
-
-function multiplyNumbers() {
+multiplyArray.forEach(multiplyNumbers)
+function multiplyNumbers(item, index, arr) {
   //write code here
+  arr[index] = item * 5;
 }

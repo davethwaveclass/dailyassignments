@@ -6,14 +6,16 @@
 let array1 = [1, 2, 3, 4, 5, 6];
 function removeLastItem() {
   //write code here
+  array1.pop();
 }
-
+console.log(array1);
 
 // Problem 2
 // Below we have an array. Take the first item off of the array.
 
 let array2 = ["This", "Hello", "World"];
 function removeFirstItem() {
+    array2.shift();
   //write code here
 }
 
@@ -37,6 +39,7 @@ let array4 = ["hello", "people"];
 
 function addItem() {
   //write code here
+  array4.unshift("well");
 }
 
 
@@ -46,6 +49,7 @@ function addItem() {
 let array5 = ["with", "great", "comes", "great", "responsibility"];
 function addMoreItem() {
   //write code here
+   array5.splice(2, 0, "great");
 }
 
 // Problem 6
@@ -54,5 +58,6 @@ function addMoreItem() {
 let array6 = [1, 2, 3, 4, 5, 6];
 function addLast() {
   //write code here
+  array6.push(7);
 }
 
