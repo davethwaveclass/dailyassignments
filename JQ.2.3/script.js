@@ -31,4 +31,10 @@ const storeItems = [
     },
   ];
 
-  
+storeItems.forEach(myFunction);
+
+  function myFunction(item) {
+    name + price;
+  }
+
+  $( "#appendToMe" ).append( '.set' );
