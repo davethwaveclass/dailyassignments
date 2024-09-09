@@ -8,3 +8,6 @@ $('#createButton').on('click', function() {
 });
 
 // Write your code here
+$ ('#createButton').on('click', function(){
+  $( "body" ).toggleClass( 'noDisplay' );
+});
